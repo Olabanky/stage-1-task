@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Lato:ital,wght@0,300;1,300&display=swap");
+
+.main_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 1216px;
+  height: 774px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 56px;
+  width: 1152px;
+  height: 774px;
+}
+
+@media screen and (max-width: 600px) {
+  .main_section {
+    padding: 0px 16px;
+    gap: 32px;
+    width: 375px;
+    height: 700px;
+  }
+
+  .content {
+    gap: 32px;
+
+    width: 343px;
+    height: 700px;
+  }
+}
