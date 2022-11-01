@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className="footer">
       <hr />
       <div className="sponsor">
         <img src="/assets/Zuri.svg" alt="Zuri internship logo" />
@@ -10,7 +10,7 @@ const Footer = () => {
         <img src="/assets/I4G.svg" alt="Ingressive for good logo" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
