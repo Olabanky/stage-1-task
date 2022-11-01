@@ -1,18 +1,10 @@
-import React from "react";
-import Home from "./Home";
-import Footer from "./Footer";
-import "./App.css";
-
-// import { BrowserRouter as Router } from "react-router-dom";
+import './App.css';
+import Link from './Components/Link';
 
 function App() {
   return (
-    // <Router>
-
-    // </Router>
-    <div className="web">
-      <Home />
-      <Footer />
+    <div className='container'>
+      <Link />
     </div>
   );
 }
